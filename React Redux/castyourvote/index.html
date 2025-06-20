@@ -1,0 +1,95 @@
+<!--Do not change the code skeleton-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.1.2/redux.min.js"></script> -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Interaction App with Redux</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f5f5dc;
+    }
+
+    #counter-container {
+      text-align: center;
+      margin-bottom: 20px;
+      background-color: #5656f3;
+    }
+
+
+
+
+    button {
+      margin: 0 20px;
+      padding: 8px 16px;
+      font-size: 16px;
+      background-color: #d5d5f1;
+      color: #00008b;
+      display: flex;
+      justify-content: center;
+    }
+
+    #article-container {
+      max-width: 600px;
+      margin: auto;
+      text-align: justify;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #057b7b;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      color: #00008b;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+  </style>
+
+  <!--import redux library-->
+  <script src="https://unpkg.com/redux@4.0.5/dist/redux.min.js"></script>
+
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <h1>Support the article with your vote!</h1>
+
+  <div id="article-container">
+    <h2>World Health Challenges</h2>
+    <p>Ensuring good health globally is a complex task that involves addressing various issues. From providing access to
+      quality healthcare to promoting healthy lifestyles, there are numerous challenges to overcome.</p>
+
+    <h2>The Importance of Health</h2>
+    <p>Recognizing the significance of health is essential for individuals and communities. A robust healthcare system
+      contributes to overall well-being, and efforts to improve health outcomes have a positive impact on society as a
+      whole.</p>
+  </div>
+
+  
+  <div id="counter-container">
+    <button id="voteButton" onclick="like()">Cast your vote</button>
+  </div>
+
+
+</body>
+
+</html>

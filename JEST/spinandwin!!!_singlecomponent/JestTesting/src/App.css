@@ -1,0 +1,81 @@
+.spin-the-wheel {
+  margin: auto;
+  width: 200px;
+  margin-top: 50px;
+}
+
+.wheel {
+  position: relative;
+  height: 200px;
+  width: 200px;
+}
+
+.option {
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 0 5px black;
+}
+
+.o1 {
+  background-color: red;
+  top: 0; 
+  left: 0; 
+  border-top-left-radius: 100%;
+}
+
+.o2 {
+  background-color: blue;
+  top: 0;
+  right: 0;
+  border-top-right-radius: 100%;
+}
+
+.o3 {
+  background-color: purple;
+  bottom: 0;
+  left: 0;
+  border-bottom-left-radius: 100%;
+}
+
+.o4 {
+  background-color: green;
+  bottom: 0;
+  right: 0;
+  border-bottom-right-radius: 100%;
+}
+
+.arrow {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  transform: rotate(45deg);
+  left: calc(50% - 10px);
+  top: calc(50% - 10px);
+  cursor: pointer;
+}
+
+.message {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.spin-animation {
+  animation: spin-wheel 3s ease-out forwards;
+}
+
+@keyframes spin-wheel {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

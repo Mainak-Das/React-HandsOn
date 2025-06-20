@@ -1,0 +1,32 @@
+/*Please donot change the styles*/
+
+body {
+    background-color: 	#936c6c; 
+    text-align: center;
+    color:white;
+}
+
+.container {
+    margin-top: 50px; 
+}
+
+.title {
+    margin-bottom: 10px; 
+}
+
+.subtitle {
+    margin-top: 0; 
+}
+
+.tableCSS {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto; 
+}
+
+.tdCSS {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: left;
+}

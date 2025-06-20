@@ -1,0 +1,23 @@
+body{
+    background-color: #c5bfb7;
+    margin-left:65px;
+    /*color: rgb(207, 211, 215);*/
+    margin-top: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+
+td{
+    background-color:#E3856E;
+    
+}
+
+#message{
+   
+    font-weight: bolder;
+    font-size:18px;
+    color:#1D2851;
+}
