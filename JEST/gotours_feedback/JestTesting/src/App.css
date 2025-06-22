@@ -1,0 +1,22 @@
+body{
+    background-color: lightgrey;
+    margin-left:65px;
+    /*color: rgb(207, 211, 215);*/
+    margin-top: 20px;
+}
+
+h1{
+    text-align: center;
+  
+}
+
+td{
+    color:#ffffff;
+}
+
+#result{
+    text-align: center;
+    font-weight: bolder;
+    font-size:18px;
+    color:#800000;
+}
