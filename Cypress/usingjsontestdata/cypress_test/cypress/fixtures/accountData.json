@@ -1,0 +1,15 @@
+{
+   
+    "account": {
+      "fname": "Jane Smith",
+      "dob": "1985-09-25",
+      "gender": "Female",
+      "mblno": "3456789012",
+      "emailid": "janesmith@example.com",
+      "cntaddress": "456 Oak Avenue",
+      "services": ["SMS"],
+      "addrProof": "Gas Bill",
+      "idProof": "Passport"
+    }
+  }
+  
